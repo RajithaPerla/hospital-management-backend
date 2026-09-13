@@ -39,6 +39,12 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
+        <!-- Exposes /actuator/health for uptime checks and Render's health probe -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- Firebase Admin SDK: verifies Google/Firebase ID tokens server-side -->
         <dependency>
             <groupId>com.google.firebase</groupId>
